@@ -2,6 +2,11 @@ import styled from 'styled-components';
 import { Button, Form, Input, Modal } from 'antd';
 import { PhoneOutlined, UserAddOutlined } from '@ant-design/icons';
 
+export const Wrapper = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 // margin: 0 auto;
 export const FormWrap = styled(Form)`
   display: flex;
@@ -25,7 +30,7 @@ export const FormLabel = styled(`label`)`
   font-size: 20px;
 `;
 
-export const AddModalBtn = styled(Button)`
+export const AddBtn = styled(Button)`
   width: 100%;
   height: 35px;
   font-size: 18px;
